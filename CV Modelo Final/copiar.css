@@ -1,0 +1,78 @@
+
+
+h3, details{
+    color: #222;   /*Detalles de obra literaria, para 
+    asignar un elemento de característica de la obra en sí*/
+}
+
+body{
+background-color: #bb6b6b;
+    font-family: Ubuntu,sans-serif;
+    transition: all .25s ease-in-out;
+    position: relative;
+    left: 10;
+    border: 40px;
+    margin: 40px; 
+                            /*Cuerpo y fondo de color interesante*/
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background: #2c2e31;
+    color: #fff;
+    text-rendering: center;
+    image-rendering: center;
+                              /*Amplio encabezado color negro*/
+    }
+
+header h1 h2 {
+    text-align: center;
+    font-weight: 100;
+                             /*Características de los títulos de encabezado, nombre e información*/
+    }
+
+div {
+    color: whitesmoke;
+    text-align: center;
+    /*Lo dejo por las dudas*/
+    }
+
+  .column1 {
+    background-color: seagreen;
+    float: left;
+    text-align: left;
+    width: 20%;
+    padding: 50px;
+    height: 1200px; 
+    margin: 40px;
+    border: 20px;
+margin-left: 0px;
+margin-right: 40px;
+border-color: black;
+                        /*Columna lateral izquierda con información personal del sujeto
+                        con pequeña asignación de elemento 'js' demostrando la edad.*/
+}
+
+
+.column2 {
+    float: auto;
+    text-align: left;
+    width: 80%;
+    padding: 50px;
+    height: 1200px; 
+    margin: 40px;
+    border: 20px;
+    background-color: transparent;
+                      /*Columna que representa el resto del cuerpo de la página*/
+    }
+  
+  footer {
+    background-color: #222;
+    color: #BDB76B;
+    text-align: center;
+                       /*Pie de página con asignación de un pequeño elemento 'js'*/
+}
+
+
+
