@@ -1,0 +1,96 @@
+
+
+#cabecera { height: 240px;
+width: 100%; }
+
+h3, details{
+    color: #222;   /*Detalles de obra literaria, para 
+    asignar un elemento de característica de la obra en sí*/
+}
+
+body{
+background-color: #bb6b6b;
+    font-family: Ubuntu,sans-serif;
+    transition: all .25s ease-in-out;
+    position: relative;
+    left: 10;
+    border: 40px;
+    margin: 40px; 
+    /*border-right: solid 20px #2c2e31;
+    border-left: solid 20px #2c2e31;*/
+border: solid 20px #2c2e31;
+width: auto;
+
+
+                            /*Cuerpo y fondo de color interesante*/
+}
+
+header{
+    width: 100%;
+    height: auto;
+    border: solid transparent;
+    background: #2c2e31;
+    color: #fff;
+    text-rendering: center;
+    image-rendering: center;
+                             /*Amplio encabezado color negro*/
+    }
+
+header h1 h2 {
+    text-align: center;
+    font-weight: 100;
+                             /*Características de los títulos de encabezado, nombre e información*/
+    }
+
+div {
+    color: whitesmoke;
+    text-align: center;
+    /*Lo dejo por las dudas*/
+    }
+
+  .column1 {
+    background-color: seagreen;
+    flex-direction: column;
+    float: left;
+    text-align: left;
+    width: 20%;
+    padding: 50px 40px;
+    height: 1410px; 
+    margin: 0, 60, 0, 0px;
+    border: 20px;
+    
+margin-left: 0px;
+margin-right: 40px;
+border-color:transparent;
+border-right: solid 20px;
+                        /*Columna lateral izquierda con información personal del sujeto
+                        con pequeña asignación de elemento 'js' demostrando la edad.*/
+}
+
+
+.column2 {
+    float: auto;
+    text-align: left;
+    width: 800px;
+    padding: 10px 60px 120px 10px;
+    height: 1300px; 
+    margin: 40px 40px 40px 350px;
+    border:  10px 10px 10px 10px;
+    background-color: transparent;
+ flex-direction: column;
+
+
+                      /*Columna que representa el resto del cuerpo de la página*/
+    }
+  
+  footer {
+    background-color: #2c2e31;
+    color: #BDB76B;
+    text-align: center;
+                       /*Pie de página con asignación de un pequeño elemento 'js'*/
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif
+}
+
